@@ -16,6 +16,10 @@ class Tmsu < Formula
   go_resource "github.com/hanwen/go-fuse" do
     url "https://github.com/hanwen/go-fuse.git"
   end
+  
+  go_resource "golang.org/x/crypto/blake2b" do
+    url "https://github.com/golang/crypto.git"
+  end
 
   def install
     ENV["GOPATH"] = buildpath
