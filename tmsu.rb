@@ -18,7 +18,8 @@ class Tmsu < Formula
   end
   
   go_resource "golang.org/x/crypto/blake2b" do
-    url "https://github.com/golang/crypto.git"
+    #url "https://github.com/golang/crypto.git"
+    url "golang.org/x/crypto/blake2b"
   end
 
   def install
